@@ -473,3 +473,35 @@
 .footer .copyright a {
     color: var(--light);
 }
+
+
+.border-primary {
+    border-color: #7d1515 !important;
+}
+
+.btn-primary {
+    background-color: #7d1515;
+    border-color: #7d1515;
+}
+
+.btn-primary:hover {
+    background-color: #cc0808;
+    border-color: #cc0808;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active {
+    color: #cc0808;
+}
+
+.text-primary {
+    color: #cc0808 !important;
+}
+
+.bg-primary {
+    background-color:#7d1515 !important;
+}
+
+.service-item a.btn-slide i, .service-item a.btn-slide span, .price-item a.btn-slide i, .price-item a.btn-slide span, .team-item div.btn-slide i, .team-item div.btn-slide span {
+    background-color: #7d1515 !important;
+}
