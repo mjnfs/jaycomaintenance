@@ -253,6 +253,11 @@
     height: 50vh !important;
 }
 
+.services-header {
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/cover7.jpg) center center no-repeat;
+    height: 50vh !important;
+}
+
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
 }
