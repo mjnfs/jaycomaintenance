@@ -223,6 +223,36 @@
     background-size: cover;
 }
 
+.plumbing-header {
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/cover1.jpg) center center no-repeat;
+    height: 50vh !important;
+}
+
+.electrical-header {
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/cover2.jpg) center center no-repeat;
+    height: 50vh !important;
+}
+
+.applicance-header {
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/cover3.jpg) center center no-repeat;
+    height: 50vh !important;
+}
+
+.hvac-header {
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/cover4.jpg) center center no-repeat;
+    height: 50vh !important;
+}
+
+.general-handyman-header {
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/cover5.jpg) center center no-repeat;
+    height: 50vh !important;
+}
+
+.locksmith-header {
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/cover6.jpg) center center no-repeat;
+    height: 50vh !important;
+}
+
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
 }
@@ -504,4 +534,21 @@
 
 .service-item a.btn-slide i, .service-item a.btn-slide span, .price-item a.btn-slide i, .price-item a.btn-slide span, .team-item div.btn-slide i, .team-item div.btn-slide span {
     background-color: #7d1515 !important;
+}
+
+/* Hide the default video controls */
+video::-webkit-media-controls {
+    display: none;
+}
+video::-webkit-media-controls-enclosure {
+    display: none !important;
+}
+video::-webkit-media-controls-panel {
+    display: none !important;
+}
+video::-webkit-media-controls-play-button {
+    display: none !important;
+}
+video::-webkit-media-controls-start-playback-button {
+    display: none !important;
 }
