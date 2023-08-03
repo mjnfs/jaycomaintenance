@@ -557,3 +557,16 @@ video::-webkit-media-controls-play-button {
 video::-webkit-media-controls-start-playback-button {
     display: none !important;
 }
+
+.text-secondary {
+    color: #cc0808 !important;
+}
+
+.bg-secondary {
+    background-color: #cc0808 !important;
+}
+
+.service-state {
+    background-color: #747474 !important;
+    color: #ffffff;
+}
